@@ -3,16 +3,15 @@
 [ExecuteInEditMode]
 public class EdgePostProccess : MonoBehaviour
 {
-    public Material material;
+    //public Material material;
 
     private void Awake()
     {
-        GetComponent<Camera>().depthTextureMode = DepthTextureMode.DepthNormals;
-
+        GetComponent<Camera>().depthTextureMode = DepthTextureMode.Depth;
     }
 
-    void OnRenderImage(RenderTexture src, RenderTexture dest)
-    {
-        Graphics.Blit(src, dest, material);
-    }
+    //void OnRenderImage(RenderTexture src, RenderTexture dest)
+    //{
+    //    Graphics.Blit(src, dest, material);
+    //}
 }

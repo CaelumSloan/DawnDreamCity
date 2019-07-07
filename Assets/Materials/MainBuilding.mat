@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Pink
+  m_Name: MainBuilding
   m_Shader: {fileID: 4800000, guid: 9b37033c89a02c04c8ae899370cf9fc9, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -40,8 +40,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 8793d4cffc5f8234998416ab52d86af7, type: 3}
+        m_Scale: {x: 0, y: 0}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -75,4 +75,4 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _TintColor: {r: 0.84313726, g: 0.52156854, b: 0.7058823, a: 1}
+    - _TintColor: {r: 0.945098, g: 0.7254902, b: 0.83137256, a: 1}

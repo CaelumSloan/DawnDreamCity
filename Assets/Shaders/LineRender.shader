@@ -33,8 +33,6 @@ Shader "Custom/LineRender"
                 float2 uv : TEXCOORD0;
             };
 
-            sampler2D _CameraDepthNormalsTexture;
-
             v2f vert (appdata v)
             {
                 v2f o;
@@ -48,6 +46,8 @@ Shader "Custom/LineRender"
 
             float _Threshold;
             fixed4 _EdgeColor;
+
+			sampler2D _CameraDepthNormalsTexture;
 
             float4 GetPixelValue(in float2 uv)
             {

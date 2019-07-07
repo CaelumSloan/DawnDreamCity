@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ab08cacbd747c8c4683c84846844c78c
+guid: 8793d4cffc5f8234998416ab52d86af7
 TextureImporter:
   fileIDToRecycleName: {}
   externalObjects: {}
@@ -34,9 +34,9 @@ TextureImporter:
     filterMode: 0
     aniso: -1
     mipBias: -100
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
   nPOTScale: 1
   lightmap: 0
   compressionQuality: 50
@@ -49,7 +49,7 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 0
+  alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 0
   textureShape: 1
@@ -137,7 +137,7 @@ TextureImporter:
     weights: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
+  pSDShowRemoveMatteOption: 1
   userData: 
   assetBundleName: 
   assetBundleVariant: 
