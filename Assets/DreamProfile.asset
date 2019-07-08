@@ -93,7 +93,7 @@ MonoBehaviour:
     value: 0
   normalThreshold:
     overrideState: 1
-    value: 0
+    value: 0.06
 --- !u!114 &114818158415898118
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
   m_Name: Bloom
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1

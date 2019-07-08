@@ -80,16 +80,25 @@ Shader "Custom/DreamShader"
 				#if defined(SHADOWS_SCREEN)
 				attenuation = SHADOW_ATTENUATION(i);
 				#endif
-				float4 directionalLightContribution = DotClamped(lightDir, i.normal);
+				float directionalLightContribution = DotClamped(lightDir, i.normal);
 
 				float4 dirLight = (directionalLightContribution * lightColor) * attenuation;
 				float4 ambientLight = float4(ShadeSH9(half4(i.normal, 1)), 1);
 
 				float4 texColor = tex2D(_MainTex, i.uv) ;
 
-				float4 color = float4(lerp(_TintColor.rgb, texColor.rgb, texColor.a), 1);
+				float4 color;
+				if (directionalLightContribution > .4f)
+				{
+					color = float4(lerp(dirLight, texColor.rgb, texColor.a), 1);
+				}
+				else
+				{
+					color = float4(lerp(_TintColor.rgb, texColor.rgb, texColor.a), 1);
+				}
 
-				return (dirLight + ambientLight) * color;
+
+				return (/*dirLight +*/ ambientLight) * color;
             }
             ENDCG
         }
