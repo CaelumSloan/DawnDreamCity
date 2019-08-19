@@ -16,6 +16,13 @@ ModelImporter:
     100020: //RootNode
     100022: MainBuildingOneObj
     100024: StairwayPlus15
+    100026: Cube.001
+    100028: Cube.002
+    100030: Cube.003
+    100032: Cylinder.001
+    100034: Cylinder.002
+    100036: Cylinder.003
+    100038: Cylinder.004
     400000: Cube
     400002: Cube_001
     400004: Cube_002
@@ -29,9 +36,17 @@ ModelImporter:
     400020: //RootNode
     400022: MainBuildingOneObj
     400024: StairwayPlus15
+    400026: Cube.001
+    400028: Cube.002
+    400030: Cube.003
+    400032: Cylinder.001
+    400034: Cylinder.002
+    400036: Cylinder.003
+    400038: Cylinder.004
     2100000: unnamed
     2100002: TempRefMat__Map
     2100004: TempRefMat
+    2100006: No Name
     2300000: Cube
     2300002: Cube_001
     2300004: Cube_002
@@ -44,6 +59,13 @@ ModelImporter:
     2300018: LongApartments1
     2300020: MainBuildingOneObj
     2300022: StairwayPlus15
+    2300024: Cube.001
+    2300026: Cube.002
+    2300028: Cube.003
+    2300030: Cylinder.001
+    2300032: Cylinder.002
+    2300034: Cylinder.003
+    2300036: Cylinder.004
     3300000: Cube
     3300002: Cube_001
     3300004: Cube_002
@@ -56,6 +78,13 @@ ModelImporter:
     3300018: LongApartments1
     3300020: MainBuildingOneObj
     3300022: StairwayPlus15
+    3300024: Cube.001
+    3300026: Cube.002
+    3300028: Cube.003
+    3300030: Cylinder.001
+    3300032: Cylinder.002
+    3300034: Cylinder.003
+    3300036: Cylinder.004
     4300000: LongApartments1
     4300002: StairwayPlus15
     4300004: MainBuildingOneObj
@@ -68,6 +97,13 @@ ModelImporter:
     4300018: Cube_002
     4300020: Cube_001
     4300022: Cube
+    4300024: Cylinder.004
+    4300026: Cylinder.003
+    4300028: Cylinder.002
+    4300030: Cylinder.001
+    4300032: Cube.003
+    4300034: Cube.002
+    4300036: Cube.001
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
